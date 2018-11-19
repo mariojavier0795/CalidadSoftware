@@ -1,0 +1,418 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{50D88054-8888-4F79-990F-ECD63BFEF0AC}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>PROYECTO_SIGSJC</RootNamespace>
+    <AssemblyName>PROYECTO SIGSJC</AssemblyName>
+    <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="MySql.Data, Version=6.9.10.0, Culture=neutral, PublicKeyToken=c5687fc88969c44d, processorArchitecture=MSIL" />
+    <Reference Include="System" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.DirectoryServices" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Controles\ConexionBD.cs" />
+    <Compile Include="Controles\ControlCementerio\ControlCementerio.cs" />
+    <Compile Include="Controles\ControlesEventos.cs" />
+    <Compile Include="Controles\ControlFinanciera\ControlFinanciero.cs" />
+    <Compile Include="Modelo\Asamblea.cs" />
+    <Compile Include="Modelo\Comunero.cs" />
+    <Compile Include="Modelo\Empadronamiento.cs" />
+    <Compile Include="Modelo\Minga.cs" />
+    <Compile Include="Modelo\Prueba.cs" />
+    <Compile Include="Vistas\IModificarEvento.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Vistas\IModificarEvento.Designer.cs">
+      <DependentUpon>IModificarEvento.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Vistas\IUAdministracionFinanciera.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Vistas\IUAdministracionFinanciera.Designer.cs">
+      <DependentUpon>IUAdministracionFinanciera.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Vistas\IUControlDeAsistencias.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Vistas\IUControlDeAsistencias.Designer.cs">
+      <DependentUpon>IUControlDeAsistencias.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Vistas\IUCreacionDeEvento.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Vistas\IUCreacionDeEvento.Designer.cs">
+      <DependentUpon>IUCreacionDeEvento.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Vistas\IUDatosDeComunero.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Vistas\IUDatosDeComunero.Designer.cs">
+      <DependentUpon>IUDatosDeComunero.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Vistas\IUDatosDeDeuda.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Vistas\IUDatosDeDeuda.Designer.cs">
+      <DependentUpon>IUDatosDeDeuda.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Vistas\IUNicho.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Vistas\IUNicho.Designer.cs">
+      <DependentUpon>IUNicho.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Vistas\IURegistrarPago.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Vistas\IURegistrarPago.Designer.cs">
+      <DependentUpon>IURegistrarPago.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Vistas\IUEstadistica.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Vistas\IUEstadistica.Designer.cs">
+      <DependentUpon>IUEstadistica.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Vistas\IUGestionDeComuneros.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Vistas\IUGestionDeComuneros.Designer.cs">
+      <DependentUpon>IUGestionDeComuneros.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Vistas\IUGestionDeEventos.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Vistas\IUGestionDeEventos.Designer.cs">
+      <DependentUpon>IUGestionDeEventos.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Vistas\IUGestionDelCementerio.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Vistas\IUGestionDelCementerio.Designer.cs">
+      <DependentUpon>IUGestionDelCementerio.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Vistas\IUGestionDeUsuarios.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Vistas\IUGestionDeUsuarios.Designer.cs">
+      <DependentUpon>IUGestionDeUsuarios.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Vistas\IUIngresoAlSistema.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Vistas\IUIngresoAlSistema.Designer.cs">
+      <DependentUpon>IUIngresoAlSistema.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Vistas\IUModificacionDatosDeComunero.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Vistas\IUModificacionDatosDeComunero.Designer.cs">
+      <DependentUpon>IUModificacionDatosDeComunero.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Vistas\IUModificacionDeParametros.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Vistas\IUModificacionDeParametros.Designer.cs">
+      <DependentUpon>IUModificacionDeParametros.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Vistas\IUModificarUsuario.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Vistas\IUModificarUsuario.Designer.cs">
+      <DependentUpon>IUModificarUsuario.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Vistas\IUNuevoComunero.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Vistas\IUNuevoComunero.Designer.cs">
+      <DependentUpon>IUNuevoComunero.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Vistas\IUNuevoFallecido.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Vistas\IUNuevoFallecido.Designer.cs">
+      <DependentUpon>IUNuevoFallecido.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Vistas\IUNuevoUsuario.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Vistas\IUNuevoUsuario.Designer.cs">
+      <DependentUpon>IUNuevoUsuario.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Vistas\IUPantallaPrincipal.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Vistas\IUPantallaPrincipal.Designer.cs">
+      <DependentUpon>IUPantallaPrincipal.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Vistas\IURegistroDeAsistencia.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Vistas\IURegistroDeAsistencia.Designer.cs">
+      <DependentUpon>IURegistroDeAsistencia.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Vistas\IUVisualizacionDeEventos.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Vistas\IUVisualizacionDeEventos.Designer.cs">
+      <DependentUpon>IUVisualizacionDeEventos.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Modelo\Persona.cs" />
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Vistas\Prueba.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Vistas\Prueba.Designer.cs">
+      <DependentUpon>Prueba.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Vistas\ReporteFallecidos.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Vistas\ReporteFallecidos.Designer.cs">
+      <DependentUpon>ReporteFallecidos.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="Vistas\IModificarEvento.resx">
+      <DependentUpon>IModificarEvento.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Vistas\IUAdministracionFinanciera.resx">
+      <DependentUpon>IUAdministracionFinanciera.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Vistas\IUControlDeAsistencias.resx">
+      <DependentUpon>IUControlDeAsistencias.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Vistas\IUCreacionDeEvento.resx">
+      <DependentUpon>IUCreacionDeEvento.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Vistas\IUDatosDeComunero.resx">
+      <DependentUpon>IUDatosDeComunero.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Vistas\IUDatosDeDeuda.resx">
+      <DependentUpon>IUDatosDeDeuda.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Vistas\IUNicho.resx">
+      <DependentUpon>IUNicho.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Vistas\IURegistrarPago.resx">
+      <DependentUpon>IURegistrarPago.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Vistas\IUEstadistica.resx">
+      <DependentUpon>IUEstadistica.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Vistas\IUGestionDeComuneros.resx">
+      <DependentUpon>IUGestionDeComuneros.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Vistas\IUGestionDeEventos.resx">
+      <DependentUpon>IUGestionDeEventos.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Vistas\IUGestionDelCementerio.resx">
+      <DependentUpon>IUGestionDelCementerio.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Vistas\IUGestionDeUsuarios.resx">
+      <DependentUpon>IUGestionDeUsuarios.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Vistas\IUIngresoAlSistema.resx">
+      <DependentUpon>IUIngresoAlSistema.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Vistas\IUModificacionDatosDeComunero.resx">
+      <DependentUpon>IUModificacionDatosDeComunero.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Vistas\IUModificacionDeParametros.resx">
+      <DependentUpon>IUModificacionDeParametros.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Vistas\IUModificarUsuario.resx">
+      <DependentUpon>IUModificarUsuario.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Vistas\IUNuevoComunero.resx">
+      <DependentUpon>IUNuevoComunero.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Vistas\IUNuevoFallecido.resx">
+      <DependentUpon>IUNuevoFallecido.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Vistas\IUNuevoUsuario.resx">
+      <DependentUpon>IUNuevoUsuario.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Vistas\IUPantallaPrincipal.resx">
+      <DependentUpon>IUPantallaPrincipal.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Vistas\IURegistroDeAsistencia.resx">
+      <DependentUpon>IURegistroDeAsistencia.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Vistas\IUVisualizacionDeEventos.resx">
+      <DependentUpon>IUVisualizacionDeEventos.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <SubType>Designer</SubType>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Vistas\Prueba.resx">
+      <DependentUpon>Prueba.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Vistas\ReporteFallecidos.resx">
+      <DependentUpon>ReporteFallecidos.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\asamblea.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\asamblea1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\cocotogLogo.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\configuration.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\empadronamiento.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\exit.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\fondoPantallaCarga.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\login.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\logout.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\modify_user.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\moneyManagement.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\new_user.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\project.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\regresar.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\save.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\search 24x24.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\search.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\search_1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\searchAndModify.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\sign-error.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\view.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\tituloSIGSJC.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\estadistica.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\estadistica1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\cementerio.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\profile.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\profile-group.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\shop.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\sign-add.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\sign-check.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\sign-delete.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\siguiente.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\user-id.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\wrench.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\print.png" />
+  </ItemGroup>
+  <ItemGroup />
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>
