@@ -483,7 +483,7 @@
             // 
             this.btnVerDatosDelComunero.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.btnVerDatosDelComunero.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F);
-            this.btnVerDatosDelComunero.Image = global::PROYECTO_SIGSJC.Properties.Resources.view;
+            
             this.btnVerDatosDelComunero.Location = new System.Drawing.Point(3, 4);
             this.btnVerDatosDelComunero.Name = "btnVerDatosDelComunero";
             this.btnVerDatosDelComunero.Size = new System.Drawing.Size(243, 36);
@@ -795,7 +795,7 @@
             // 
             this.btnDatosDeudaEmpadron.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.btnDatosDeudaEmpadron.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F);
-            this.btnDatosDeudaEmpadron.Image = global::PROYECTO_SIGSJC.Properties.Resources.view;
+            
             this.btnDatosDeudaEmpadron.Location = new System.Drawing.Point(3, 4);
             this.btnDatosDeudaEmpadron.Name = "btnDatosDeudaEmpadron";
             this.btnDatosDeudaEmpadron.Size = new System.Drawing.Size(243, 36);
@@ -1106,7 +1106,7 @@
             // 
             this.btnDatosDeudaMinga.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.btnDatosDeudaMinga.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F);
-            this.btnDatosDeudaMinga.Image = global::PROYECTO_SIGSJC.Properties.Resources.view;
+            
             this.btnDatosDeudaMinga.Location = new System.Drawing.Point(4, 4);
             this.btnDatosDeudaMinga.Name = "btnDatosDeudaMinga";
             this.btnDatosDeudaMinga.Size = new System.Drawing.Size(243, 36);
@@ -1425,7 +1425,7 @@
             // 
             this.btnDatosDeudaComunero.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.btnDatosDeudaComunero.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F);
-            this.btnDatosDeudaComunero.Image = global::PROYECTO_SIGSJC.Properties.Resources.view;
+            
             this.btnDatosDeudaComunero.Location = new System.Drawing.Point(4, 4);
             this.btnDatosDeudaComunero.Name = "btnDatosDeudaComunero";
             this.btnDatosDeudaComunero.Size = new System.Drawing.Size(243, 36);

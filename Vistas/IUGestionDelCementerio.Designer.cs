@@ -581,7 +581,7 @@
             // 
             this.btnVerDatosDelComunero.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.btnVerDatosDelComunero.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F);
-            this.btnVerDatosDelComunero.Image = global::PROYECTO_SIGSJC.Properties.Resources.view;
+            
             this.btnVerDatosDelComunero.Location = new System.Drawing.Point(435, 3);
             this.btnVerDatosDelComunero.Name = "btnVerDatosDelComunero";
             this.btnVerDatosDelComunero.Size = new System.Drawing.Size(266, 38);

@@ -98,3 +98,39 @@ C:\Users\Dell\Desktop\Analy\5to-2017B\PROYECTO SIGSJC\obj\Debug\PROYECTO_SIGSJC.
 E:\Documents\OneDrive - Escuela Politécnica Nacional\EPN\Séptimo Semestre\Calidad de Software\V1.5 - copia\PROYECTO SIGSJC Any ultimo\PROYECTO SIGSJC Any\PROYECTO SIGSJC\obj\Debug\PROYECTO SIGSJC.csprojAssemblyReference.cache
 E:\Documents\OneDrive - Escuela Politécnica Nacional\EPN\Séptimo Semestre\Calidad de Software\V1.5 - copia\PROYECTO SIGSJC Any ultimo\PROYECTO SIGSJC Any\PROYECTO SIGSJC\obj\Debug\PROYECTO SIGSJC.exe
 E:\Documents\OneDrive - Escuela Politécnica Nacional\EPN\Séptimo Semestre\Calidad de Software\V1.5 - copia\PROYECTO SIGSJC Any ultimo\PROYECTO SIGSJC Any\PROYECTO SIGSJC\obj\Debug\PROYECTO SIGSJC.pdb
+E:\Documents\Github\CalidadSoftware\obj\Debug\PROYECTO_SIGSJC.Vistas.IModificarEvento.resources
+E:\Documents\Github\CalidadSoftware\obj\Debug\PROYECTO_SIGSJC.IUAdministracionFinanciera.resources
+E:\Documents\Github\CalidadSoftware\obj\Debug\ProyectoComuna.IUControlDeAsistencias.resources
+E:\Documents\Github\CalidadSoftware\obj\Debug\PROYECTO_SIGSJC.IUCreacionDeEvento.resources
+E:\Documents\Github\CalidadSoftware\obj\Debug\PROYECTO_SIGSJC.IUDatosDeComunero.resources
+E:\Documents\Github\CalidadSoftware\obj\Debug\PROYECTO_SIGSJC.IUDatosDeDeuda.resources
+E:\Documents\Github\CalidadSoftware\obj\Debug\PROYECTO_SIGSJC.Vistas.IUNicho.resources
+E:\Documents\Github\CalidadSoftware\obj\Debug\PROYECTO_SIGSJC.Vistas.IURegistrarPago.resources
+E:\Documents\Github\CalidadSoftware\obj\Debug\PROYECTO_SIGSJC.IUEstadistica.resources
+E:\Documents\Github\CalidadSoftware\obj\Debug\ExposicionGUI.IUGestionDeComuneros.resources
+E:\Documents\Github\CalidadSoftware\obj\Debug\PROYECTO_SIGSJC.IUGestionDeEventos.resources
+E:\Documents\Github\CalidadSoftware\obj\Debug\PROYECTO_SIGSJC.IUGestionDelCementerio.resources
+E:\Documents\Github\CalidadSoftware\obj\Debug\ProyectoComuna.IUGestionDeUsuarios.resources
+E:\Documents\Github\CalidadSoftware\obj\Debug\PROYECTO_SIGSJC.IUIngresoAlSistema.resources
+E:\Documents\Github\CalidadSoftware\obj\Debug\PROYECTO_SIGSJC.IUModificacionDatosDeComunero.resources
+E:\Documents\Github\CalidadSoftware\obj\Debug\ProyectoComuna.IUModificacionDeParametros.resources
+E:\Documents\Github\CalidadSoftware\obj\Debug\ProyectoComuna.IUModificarUsuario.resources
+E:\Documents\Github\CalidadSoftware\obj\Debug\PROYECTO_SIGSJC.IUNuevoComunero.resources
+E:\Documents\Github\CalidadSoftware\obj\Debug\PROYECTO_SIGSJC.Vistas.IUNuevoFallecido.resources
+E:\Documents\Github\CalidadSoftware\obj\Debug\ProyectoComuna.IUsuario.resources
+E:\Documents\Github\CalidadSoftware\obj\Debug\PROYECTO_SIGSJC.IUPantallaPrincipal.resources
+E:\Documents\Github\CalidadSoftware\obj\Debug\ProyectoComuna.IURegistroDeAsistencia.resources
+E:\Documents\Github\CalidadSoftware\obj\Debug\PROYECTO_SIGSJC.IUVisualizacionDeEventos.resources
+E:\Documents\Github\CalidadSoftware\obj\Debug\PROYECTO_SIGSJC.Vistas.Prueba.resources
+E:\Documents\Github\CalidadSoftware\obj\Debug\PROYECTO_SIGSJC.Vistas.ReporteFallecidos.resources
+E:\Documents\Github\CalidadSoftware\obj\Debug\PROYECTO SIGSJC.csproj.GenerateResource.cache
+E:\Documents\Github\CalidadSoftware\obj\Debug\PROYECTO SIGSJC.exe
+E:\Documents\Github\CalidadSoftware\obj\Debug\PROYECTO SIGSJC.pdb
+E:\Documents\Github\CalidadSoftware\obj\Debug\PROYECTO_SIGSJC.Properties.Resources.resources
+E:\Documents\Github\CalidadSoftware\obj\Debug\PROYECTO SIGSJC.csproj.CoreCompileInputs.cache
+E:\Documents\Github\CalidadSoftware\bin\Debug\PROYECTO SIGSJC.exe.config
+E:\Documents\Github\CalidadSoftware\bin\Debug\PROYECTO SIGSJC.exe
+E:\Documents\Github\CalidadSoftware\bin\Debug\PROYECTO SIGSJC.pdb
+E:\Documents\Github\CalidadSoftware\obj\Debug\PROYECTO SIGSJC.csproj.CopyComplete
+E:\Documents\Github\CalidadSoftware\bin\Debug\PROYECTO SIGSJC.exe.CodeAnalysisLog.xml
+E:\Documents\Github\CalidadSoftware\bin\Debug\PROYECTO SIGSJC.exe.lastcodeanalysissucceeded

@@ -369,9 +369,6 @@
     <None Include="Resources\sign-error.png" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Resources\view.png" />
-  </ItemGroup>
-  <ItemGroup>
     <None Include="Resources\tituloSIGSJC.png" />
   </ItemGroup>
   <ItemGroup>
